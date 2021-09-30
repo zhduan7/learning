@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff1e20c-6e53-4ff6-ab31-e6dac12f042c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dubbo-spring-boot-project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-client/src/main/java/com/duan/goods/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-service/src/main/java/com/duan/GoodsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-service/src/main/java/com/duan/goods/DefaultDemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-goods/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-order/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-order/order-service/src/main/java/com/duan/OrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-order/order-service/src/main/java/com/duan/order/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-order/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/wapper/GoodsWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/src/main/java/com/duan/goods/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/src/main/java/com/duan/goods/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/target/classes/com/duan/goods/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/target/classes/com/duan/goods/controller/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/target/classes/com/duan/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/target/classes/com/duan/order/OrderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/target/classes/com/duan/order/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/target/classes/com/duan/order/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-spring-boot-project" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-spring-boot-project" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +219,7 @@
       <workItem from="1632960438746" duration="1211000" />
       <workItem from="1632964633325" duration="702000" />
       <workItem from="1632973542325" duration="2024000" />
-      <workItem from="1633006435163" duration="331000" />
+      <workItem from="1633006435163" duration="660000" />
     </task>
     <servers />
   </component>
