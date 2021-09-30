@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74367844-9bcf-44b6-bb1e-aa99f1f0f64e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/com/api/GoodsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/com/api/JifenApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api/target/classes/META-INF/cloud-api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api/target/classes/com/api/GoodsApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api/target/classes/com/api/JifenApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/src/main/java/com/qf/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/src/main/java/com/qf/Jifen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/src/main/java/com/qf/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/src/main/java/com/qf/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/src/main/java/com/qf/ResultVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/src/main/java/com/qf/TbGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/src/main/java/com/qf/TbOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/target/classes/com/qf/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/target/classes/com/qf/Jifen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/target/classes/com/qf/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/target/classes/com/qf/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/target/classes/com/qf/ResultVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/target/classes/com/qf/TbGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-entity/target/classes/com/qf/TbOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/src/main/java/com/qf/GoodsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/src/main/java/com/qf/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/src/main/java/com/qf/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/src/main/java/com/qf/sentinel/CustomerRequestOriginParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/src/main/java/com/qf/service/IGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/src/main/java/com/qf/service/impl/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/target/classes/com/qf/GoodsApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/target/classes/com/qf/controller/GoodsController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/target/classes/com/qf/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/target/classes/com/qf/mapper/GoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/target/classes/com/qf/sentinel/CustomerRequestOriginParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/target/classes/com/qf/service/IGoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-goods/target/classes/com/qf/service/impl/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/java/com/qf/GWApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/java/com/qf/filters/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/java/com/qf/filters/CalServiceTimeGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/java/com/qf/filters/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/java/com/qf/predicates/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/java/com/qf/predicates/MyHeaderRoutePredicateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/java/com/qf/sentinel/GatewayConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/java/com/qf/sentinel/MySentinelGatewayBlockExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/META-INF/cloud-gw(1).kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/META-INF/cloud-gw.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/GWApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/filters/AuthFilter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/filters/AuthFilter$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/filters/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/filters/CalServiceTimeGatewayFilterFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/filters/CalServiceTimeGatewayFilterFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/filters/MyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/predicates/MyConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/predicates/MyHeaderRoutePredicateFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/predicates/MyHeaderRoutePredicateFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/sentinel/GatewayConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/sentinel/MySentinelGatewayBlockExceptionHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/sentinel/MySentinelGatewayBlockExceptionHandler$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gw/target/classes/com/qf/sentinel/MySentinelGatewayBlockExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/src/main/java/com/qf/JifenApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/src/main/java/com/qf/controller/JifenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/target/classes/com/qf/JifenApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/target/classes/com/qf/controller/JifenController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/target/classes/com/qf/controller/JifenController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/target/classes/com/qf/controller/JifenController$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-jifen/target/classes/com/qf/controller/JifenController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/sentinel/rules/authority-rule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/sentinel/rules/degrade-rule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/sentinel/rules/flow-rule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/sentinel/rules/param-flow-rule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/sentinel/rules/system-rule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/OrderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/exception/CustomerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/feign/CustomerRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/sentinel/BlockExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/sentinel/DegradeExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/sentinel/FileDataSourceInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/qf/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/java/com/rule/MyRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/OrderApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/exception/CustomerExceptionHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/exception/CustomerExceptionHandler$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/exception/CustomerExceptionHandler$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/exception/CustomerExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/feign/CustomerRequestInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/sentinel/BlockExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/sentinel/DegradeExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/sentinel/FileDataSourceInit$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/sentinel/FileDataSourceInit$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/sentinel/FileDataSourceInit$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/sentinel/FileDataSourceInit$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/sentinel/FileDataSourceInit$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/sentinel/FileDataSourceInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/service/IOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/qf/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-order/target/classes/com/rule/MyRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_demo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/java-based/src/main/java/draw/DrawCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/java-based/src/main/java/network/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/java-based/src/main/java/network/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/java-based/src/main/java/network/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/java-based/src/main/java/network/SocketTcpClient1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/java-based/src/main/java/network/SocketTcpServer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/duan-goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/duan-goods/src/main/java/com/duan/goods/GoodsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/duan-goods/src/main/java/com/duan/goods/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/duan-goods/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/duan-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/duan-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-alibaba/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/01-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/01-eureka/src/main/java/com/duan/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/01-eureka/src/main/java/com/duan/web/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/01-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/02-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/02-eureka/src/main/java/com/duan/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/02-eureka/src/main/java/com/duan/web/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/02-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/03-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/03-search/src/main/java/com/duan/SearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/03-search/src/main/java/com/duan/web/Search01TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/03-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/04-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/04-client/src/main/java/com/duan/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/04-client/src/main/java/com/duan/web/Client01TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/04-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/java-based/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/java-based/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/java-based/src/main/java/process/control/EightQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/java-based/src/main/java/process/control/EightQueen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/java-based/target/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/java-based/target/classes/process/control/EightQueen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/java-based/target/classes/process/control/EightQueen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\repos" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wnhgsIoCWbTVUwSCQpkKl2KnpL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qf.filters" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\直播课\springcloud-alibaba\代码\cloud-demo" />
+      <recent name="F:\直播课\springcloud-alibaba\代码\cloud-demo\cloud-jifen\src\main\resources" />
+      <recent name="F:\直播课\springcloud-alibaba\代码\cloud-demo\cloud-order\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApp">
+    <configuration name="OrderController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qf.controller.OrderController" />
+      <module name="cloud-order" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GWApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.GWApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApp9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="cloud-goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.GoodsApp" />
+      <option name="VM_PARAMETERS" value="-Dport=9001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApp9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.GoodsApp" />
+      <option name="VM_PARAMETERS" value="-Dport=9003" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JifenApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-jifen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.JifenApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.OrderApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.OrderController" />
+      <item itemvalue="Spring Boot.GoodsApp9003" />
+      <item itemvalue="Spring Boot.GoodsApp9001" />
+      <item itemvalue="Spring Boot.OrderApp" />
+      <item itemvalue="Spring Boot.JifenApp" />
+      <item itemvalue="Spring Boot.GWApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderApp" />
+        <item itemvalue="Spring Boot.JifenApp" />
+        <item itemvalue="Spring Boot.GWApp" />
+        <item itemvalue="Application.OrderController" />
+        <item itemvalue="Spring Boot.GoodsApp9001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74367844-9bcf-44b6-bb1e-aa99f1f0f64e" name="Default Changelist" comment="" />
+      <created>1629100373827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629100373827</updated>
+      <workItem from="1629100376763" duration="3369000" />
+      <workItem from="1629161933866" duration="14781000" />
+      <workItem from="1629249103371" duration="24739000" />
+      <workItem from="1629681054843" duration="17300000" />
+      <workItem from="1629788916192" duration="23231000" />
+      <workItem from="1632058457513" duration="126000" />
+      <workItem from="1632071385459" duration="846000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1629877666153">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1629877666153" />
+    <state x="223" y="72" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629860374825">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1629860374825" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1629877967895">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1629877967895" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1629681142308">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1629681142308" />
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom" timestamp="1629963681156">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629963681156" />
+    <state width="1493" height="337" key="GridCell.Tab.0.center" timestamp="1629963681156">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1629963681156" />
+    <state width="1493" height="337" key="GridCell.Tab.0.left" timestamp="1629963681156">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1629963681156" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right" timestamp="1629963681156">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1629963681156" />
+    <state width="1493" height="434" key="GridCell.Tab.1.bottom" timestamp="1629963681152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="434" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629963681152" />
+    <state width="1493" height="434" key="GridCell.Tab.1.center" timestamp="1629963681152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="434" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1629963681152" />
+    <state width="1493" height="434" key="GridCell.Tab.1.left" timestamp="1629963681152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="434" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1629963681152" />
+    <state width="1493" height="434" key="GridCell.Tab.1.right" timestamp="1629963681152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="434" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1629963681152" />
+    <state width="1493" height="434" key="GridCell.Tab.2.bottom" timestamp="1629963681152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="434" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629963681152" />
+    <state width="1493" height="434" key="GridCell.Tab.2.center" timestamp="1629963681152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="434" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1629963681152" />
+    <state width="1493" height="434" key="GridCell.Tab.2.left" timestamp="1629963681152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="434" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1629963681152" />
+    <state width="1493" height="434" key="GridCell.Tab.2.right" timestamp="1629963681152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="434" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1629963681152" />
+    <state x="178" y="78" key="new project wizard" timestamp="1629702267896">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1629702267896" />
+    <state x="475" y="157" width="672" height="678" key="search.everywhere.popup" timestamp="1629792320723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="475" y="157" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1629792320723" />
+  </component>
+</project>

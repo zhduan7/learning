@@ -1,0 +1,76 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 123456
+      url: jdbc:mysql://127.0.0.1:3306/cloud_demo?useUnicode=true&characterEncoding=utf8&useSSL=false
+      max-active: 40 #连接池配置
+  application:
+    name: cloud-order #服务名称，必须，保证唯一
+  zipkin:
+    base-url: http://localhost:9999
+    discovery-client-enabled: false
+  sleuth:
+    sampler:
+      rate: 100
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #指定nacos-server的地址
+        username: nacos
+        password: nacos
+        namespace: pro
+        group: my-group
+    sentinel: #sentinel配置
+      transport:
+        port: 8719
+        dashboard: localhost:8888
+      eager: true
+      web-context-unify: false
+
+server:
+  port: 9002
+ribbon:
+  eager-load:
+    enabled: true
+    clients:
+      - cloud-jifen
+      - cloud-goods
+feign:
+  client:
+    config:
+      cloud-jifen:
+        connect-timeout: 1000
+        read-timeout: 10000  #设置ali-jifen相应的超时时间为1毫秒
+      default: #设置默认的超时时间
+        connect-timeout: 1000
+        read-timeout: 10000
+  sentinel:
+    enabled: true
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+seata:
+  enabled: true
+  tx-service-group: fengmi_tx_group
+  enable-auto-data-source-proxy: true
+  config:
+    type: nacos
+    nacos:
+      server-addr: 127.0.0.1:8848
+      group: DEFAULT_GROUP
+      namespace: sit
+      username: nacos
+      password: nacos
+      data-id: fengmi_tx_group-sit.properties
+
+  registry: #发现seata-server
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 127.0.0.1:8848
+      namespace: sit
+      group: DEFAULT_GROUP
+      username: nacos
+      password: nacos

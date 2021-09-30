@@ -1,0 +1,33 @@
+server:
+  #gateway的端口
+  port: 8040
+
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: pro #服务发布到指定的namespace，默认是public
+        group: my-group #服务发布到指定的group，默认值是DEFAULT_GROUP
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8888
+        port: 8710
+    gateway:
+      routes:
+        - id: cloud-goods
+          uri: lb://cloud-goods/
+          predicates:
+            - Path=/goods/**
+#            - After=2021-08-23T15:51:15.200+08:00[Asia/Shanghai]
+#            - Cookie=age,18
+#            - MyHeader=name,jack
+#          filters:
+#            - AddRequestHeader=token,123
+#            - CalServiceTime=a,b
+        - id: baidu
+          uri: http://www.baidu.com
+          predicates:
+            - Path=/**  #http://localhost:8040/a=》http://www.baidu.com/a

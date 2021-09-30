@@ -1,0 +1,19 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://root:root@localhost:8762/eureka/
+
+
+#安全校验
+spring:
+  security:
+    user:
+      name: root
+      password: root

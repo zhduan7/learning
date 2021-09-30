@@ -1,0 +1,18 @@
+#从配置中心加载配置文件
+#文件名是通过公式来拼接${prefix}-${spring.profiles.active}.${file-extension}
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: pro
+        group: DEFAULT_GROUP
+        prefix: cloud-jifen
+        file-extension: yml
+        shared-configs: #加载共享配置文件
+          - common.yml
+          - common1.yml
+        refreshable-dataids: common.yml,common1.yml #指定配置文件支持动态刷新
+  profiles:
+    active: pro
+

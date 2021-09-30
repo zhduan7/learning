@@ -1,0 +1,17 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: goods
+dubbo:
+  registry:
+#    address: nacos://192.168.0.21:8838
+    address: nacos://192.168.0.9:8848
+    username: nacos
+    password: nacos
+  application:
+    name: goods
+  protocol:
+    name: dubbo
+    host: 192.168.0.9
+    port: 9970

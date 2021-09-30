@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.github.houkunlin.database.generator.config.ConfigService">
+    <option name="settings">
+      <Settings>
+        <option name="entitySuffix" value="" />
+        <option name="projectPath" value="$PROJECT_DIR$" />
+      </Settings>
+    </option>
+  </component>
+</project>

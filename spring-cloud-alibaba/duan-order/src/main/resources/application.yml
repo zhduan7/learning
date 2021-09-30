@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: DUAN-ORDER  #server name
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.21:8888
+
+server:
+  port: 9003

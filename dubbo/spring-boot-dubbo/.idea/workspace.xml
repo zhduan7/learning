@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ff1e20c-6e53-4ff6-ab31-e6dac12f042c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dubbo-spring-boot-project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-client/src/main/java/com/duan/goods/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-service/src/main/java/com/duan/GoodsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-service/src/main/java/com/duan/goods/DefaultDemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-goods/goods-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-order/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-order/order-service/src/main/java/com/duan/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-order/order-service/src/main/java/com/duan/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-order/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/wapper/GoodsWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/src/main/java/com/duan/goods/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/src/main/java/com/duan/goods/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/target/classes/com/duan/goods/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-goods/target/classes/com/duan/goods/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/src/main/java/com/duan/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/target/classes/com/duan/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/target/classes/com/duan/order/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/target/classes/com/duan/order/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-cloud-alibaba/duan-order/target/classes/com/duan/order/controller/OrderController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="C:\Program Files\apache-maven-3.8.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yiTrpqhRH14FOjoYiXYreG4dCq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.45683452" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9003/order/sayHello/hanghanghang" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9003/order/haha" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="goods-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.duan.GoodsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApplication9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="goods-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.duan.GoodsApplication" />
+      <option name="VM_PARAMETERS" value="-Ddubbo.protocol.port=9971" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.duan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.duan.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests#3" />
+      <item itemvalue="HTTP Request.generated-requests#1" />
+      <item itemvalue="Spring Boot.GoodsApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.GoodsApplication9002" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="Spring Boot.GoodsApplication9002" />
+        <item itemvalue="HTTP Request.generated-requests#3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ff1e20c-6e53-4ff6-ab31-e6dac12f042c" name="Default Changelist" comment="" />
+      <created>1632733613801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632733613801</updated>
+      <workItem from="1632733615983" duration="2494000" />
+      <workItem from="1632737178003" duration="1529000" />
+      <workItem from="1632738734822" duration="300000" />
+      <workItem from="1632739054242" duration="285000" />
+      <workItem from="1632739477969" duration="227000" />
+      <workItem from="1632739722643" duration="5937000" />
+      <workItem from="1632745742187" duration="16000" />
+      <workItem from="1632745808799" duration="2554000" />
+      <workItem from="1632748410239" duration="234000" />
+      <workItem from="1632748667086" duration="1702000" />
+      <workItem from="1632750439041" duration="90000" />
+      <workItem from="1632750550855" duration="62000" />
+      <workItem from="1632752637863" duration="286000" />
+      <workItem from="1632752946149" duration="761000" />
+      <workItem from="1632754021136" duration="276000" />
+      <workItem from="1632767797717" duration="795000" />
+      <workItem from="1632768932728" duration="62000" />
+      <workItem from="1632769167260" duration="276000" />
+      <workItem from="1632789503376" duration="1072000" />
+      <workItem from="1632791366819" duration="2288000" />
+      <workItem from="1632793730829" duration="1581000" />
+      <workItem from="1632795357563" duration="5123000" />
+      <workItem from="1632800557941" duration="1644000" />
+      <workItem from="1632802242209" duration="211000" />
+      <workItem from="1632802485171" duration="5043000" />
+      <workItem from="1632829567183" duration="10000" />
+      <workItem from="1632870365927" duration="2032000" />
+      <workItem from="1632906817033" duration="3567000" />
+      <workItem from="1632910564110" duration="2346000" />
+      <workItem from="1632912962659" duration="2324000" />
+      <workItem from="1632916649765" duration="225000" />
+      <workItem from="1632916903006" duration="1020000" />
+      <workItem from="1632917980321" duration="223000" />
+      <workItem from="1632918230629" duration="598000" />
+      <workItem from="1632918857629" duration="5239000" />
+      <workItem from="1632924166556" duration="644000" />
+      <workItem from="1632924851752" duration="371000" />
+      <workItem from="1632925315190" duration="8819000" />
+      <workItem from="1632960438746" duration="1211000" />
+      <workItem from="1632964633325" duration="702000" />
+      <workItem from="1632973542325" duration="2024000" />
+      <workItem from="1633006435163" duration="331000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/dubbo" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-order/order-service/src/main/java/com/duan/order/controller/OrderController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.8/dubbo-2.7.8-sources.jar!/org/apache/dubbo/config/spring/schema/DubboBeanDefinitionParser.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.8/dubbo-2.7.8-sources.jar!/org/apache/dubbo/config/spring/context/annotation/DubboConfigConfigurationRegistrar.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/spring/spring-context-support/1.0.8/spring-context-support-1.0.8-sources.jar!/com/alibaba/spring/util/AnnotatedBeanDefinitionRegistryUtils.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/spring/spring-context-support/1.0.8/spring-context-support-1.0.8-sources.jar!/com/alibaba/spring/beans/factory/annotation/ConfigurationBeanBindingsRegister.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/spring/spring-context-support/1.0.8/spring-context-support-1.0.8-sources.jar!/com/alibaba/spring/beans/factory/annotation/ConfigurationBeanBindingRegistrar.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../dubbo/dubbo-config/dubbo-config-spring/src/main/java/org/apache/dubbo/config/spring/context/annotation/DubboConfigConfigurationRegistrar.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../dubbo/dubbo-config/dubbo-config-spring/src/main/java/org/apache/dubbo/config/spring/context/annotation/DubboConfigConfigurationRegistrar.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../dubbo/dubbo-config/dubbo-config-spring/src/main/java/org/apache/dubbo/config/spring/util/DubboBeanUtils.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../dubbo/dubbo-config/dubbo-config-spring/src/main/java/org/apache/dubbo/config/spring/context/annotation/DubboComponentScanRegistrar.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../dubbo/dubbo-config/dubbo-config-spring/src/main/java/org/apache/dubbo/config/spring/context/annotation/DubboComponentScanRegistrar.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../dubbo/dubbo-config/dubbo-config-spring/src/main/java/org/apache/dubbo/config/spring/context/annotation/DubboComponentScanRegistrar.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

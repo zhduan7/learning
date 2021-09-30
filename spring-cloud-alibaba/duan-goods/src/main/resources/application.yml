@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: DUAN-GOODS  # server name
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.21:8888
+
+    sentinel:
+      transport:
+        dashboard: 192.168.0.21:8080
+
+server:
+  port: 9001
